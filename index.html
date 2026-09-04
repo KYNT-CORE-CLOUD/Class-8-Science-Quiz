@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Class 8 Science: Olympiad Cell Quiz</title>
+<title>Class 8 Science: Olympiad Quiz — Nature, Biology, Chemistry & Physics</title>
 
 <style>
 :root{
@@ -241,12 +241,12 @@ footer{
 <header>
   <div class="header-brand">
     <img src="https://kensrischool-download.web.app/assets/Ken_Logo.png" class="school-logo" alt="KENSRI Logo">
-    <div class="header-title">Class 8 Science: Olympiad Cell Quiz</div>
+    <div class="header-title">Class 8 Science: Olympiad Quiz — Nature, Biology, Chemistry & Physics</div>
   </div>
 
   <div class="nav-controls">
     <button class="btn btn-secondary" id="prevBtn" onclick="changeSlide(-1)">❮ Prev</button>
-    <span class="slide-counter" id="slideCounter">Slide 1 of 4</span>
+    <span class="slide-counter" id="slideCounter">Slide 1 of 5</span>
     <button class="btn btn-secondary" id="nextBtn" onclick="changeSlide(1)">Next ❯</button>
     <button class="btn" id="toggleViewBtn" onclick="toggleViewMode()">Scroll Mode</button>
   </div>
@@ -256,53 +256,42 @@ footer{
 
 <!-- Slide 1 -->
 <div class="slide active" id="slide-1">
-  <div class="slide-title">Question 1 — Assertion & Reason</div>
+  <div class="slide-title">Nature — HOTS Question 1</div>
 
   <div class="question-text">
-    <strong>Assertion (A):</strong> A plant cell placed in distilled water becomes turgid but does not burst.
-    <br><br>
-    <strong>Reason (R):</strong> The rigid cell wall develops an opposing pressure that balances the inward movement of water.
+    A town removes many trees and covers most open soil with concrete. After a period of heavy rainfall, which outcome is most likely?
   </div>
 
   <ul class="options-list">
-    <li class="option-item" data-correct="true" onclick="selectOption(this)"><span class="option-prefix">A.</span> Both A and R are true, and R is the correct explanation of A.</li>
-    <li class="option-item" onclick="selectOption(this)"><span class="option-prefix">B.</span> Both A and R are true, but R is not the correct explanation of A.</li>
-    <li class="option-item" onclick="selectOption(this)"><span class="option-prefix">C.</span> A is true, but R is false.</li>
-    <li class="option-item" onclick="selectOption(this)"><span class="option-prefix">D.</span> A is false, but R is true.</li>
+    <li class="option-item" onclick="selectOption(this)"><span class="option-prefix">A.</span> Groundwater level rises sharply because concrete absorbs rainwater.</li>
+    <li class="option-item" data-correct="true" onclick="selectOption(this)"><span class="option-prefix">B.</span> Surface runoff and chances of flooding increase because less water can soak into the ground.</li>
+    <li class="option-item" onclick="selectOption(this)"><span class="option-prefix">C.</span> Rainfall decreases immediately because trees no longer produce clouds.</li>
+    <li class="option-item" onclick="selectOption(this)"><span class="option-prefix">D.</span> Soil erosion stops because concrete prevents water movement.</li>
   </ul>
 
   <button class="btn" onclick="toggleAnswer('answer-1', this)">Show Answer</button>
 
   <div class="answer-box" id="answer-1">
-    <div class="answer-title">Correct Answer: A</div>
+    <div class="answer-title">Correct Answer: B</div>
     <div class="explanation">
-      Water enters the plant cell by osmosis, making it turgid. The cell wall exerts wall pressure that prevents the cell from bursting.
+      Concrete reduces infiltration, while fewer trees also reduce interception and water absorption by roots. More rainwater therefore flows over the surface, increasing runoff and flood risk.
     </div>
   </div>
 </div>
 
 <!-- Slide 2 -->
 <div class="slide" id="slide-2">
-  <div class="slide-title">Question 2 — Data Interpretation</div>
+  <div class="slide-title">Biology — HOTS Question 2</div>
 
   <div class="question-text">
-    A student studies three cells and records the following observations.
+    A muscle cell and a skin cell from the same person contain the same DNA, yet they perform very different functions. What best explains this difference?
   </div>
 
-  <table>
-    <tr><th>Cell</th><th>Observation</th></tr>
-    <tr><td>P</td><td>Many mitochondria, no cell wall</td></tr>
-    <tr><td>Q</td><td>Cell wall present, large vacuole, no chloroplasts</td></tr>
-    <tr><td>R</td><td>No nucleus, no mitochondria, ribosomes present</td></tr>
-  </table>
-
-  <div class="question-text">Which option correctly identifies the cells?</div>
-
   <ul class="options-list">
-    <li class="option-item" onclick="selectOption(this)"><span class="option-prefix">A.</span> P – Plant cell; Q – Animal cell; R – Bacterial cell</li>
-    <li class="option-item" data-correct="true" onclick="selectOption(this)"><span class="option-prefix">B.</span> P – Animal cell; Q – Plant cell; R – Bacterial cell</li>
-    <li class="option-item" onclick="selectOption(this)"><span class="option-prefix">C.</span> P – Animal cell; Q – Plant cell; R – Fungal cell</li>
-    <li class="option-item" onclick="selectOption(this)"><span class="option-prefix">D.</span> P – Muscle cell; Q – Leaf cell; R – Virus</li>
+    <li class="option-item" onclick="selectOption(this)"><span class="option-prefix">A.</span> The muscle cell has completely different genes from the skin cell.</li>
+    <li class="option-item" data-correct="true" onclick="selectOption(this)"><span class="option-prefix">B.</span> Different genes are active in the two cells, producing different proteins.</li>
+    <li class="option-item" onclick="selectOption(this)"><span class="option-prefix">C.</span> Skin cells do not contain a nucleus.</li>
+    <li class="option-item" onclick="selectOption(this)"><span class="option-prefix">D.</span> Muscle cells use only mitochondrial DNA.</li>
   </ul>
 
   <button class="btn" onclick="toggleAnswer('answer-2', this)">Show Answer</button>
@@ -310,26 +299,24 @@ footer{
   <div class="answer-box" id="answer-2">
     <div class="answer-title">Correct Answer: B</div>
     <div class="explanation">
-      P lacks a cell wall and has many mitochondria, so it is an animal cell. Q has a cell wall and large vacuole, indicating a plant cell from a non-green part. R lacks a nucleus but has ribosomes, so it is a bacterial cell.
+      Most body cells contain the same genetic information, but different sets of genes are switched on or off. This causes the cells to make different proteins and develop different structures and functions.
     </div>
   </div>
 </div>
 
 <!-- Slide 3 -->
 <div class="slide" id="slide-3">
-  <div class="slide-title">Question 3 — High Olympiad Challenge</div>
+  <div class="slide-title">Chemistry — HOTS Question 3</div>
 
   <div class="question-text">
-    A cell contains a plasma membrane, cytoplasm, ribosomes, and circular DNA.
-    It lacks a nuclear membrane, mitochondria, and chloroplasts.
-    Which statement is most accurate?
+    A student has a mixture of iron filings, sand, and salt. Which sequence would separate all three substances most effectively?
   </div>
 
   <ul class="options-list">
-    <li class="option-item" onclick="selectOption(this)"><span class="option-prefix">A.</span> It cannot synthesize proteins because it lacks mitochondria.</li>
-    <li class="option-item" data-correct="true" onclick="selectOption(this)"><span class="option-prefix">B.</span> It is a prokaryotic cell capable of independent life processes.</li>
-    <li class="option-item" onclick="selectOption(this)"><span class="option-prefix">C.</span> It is an animal cell in an early stage of development.</li>
-    <li class="option-item" onclick="selectOption(this)"><span class="option-prefix">D.</span> It is a virus because it lacks a nucleus.</li>
+    <li class="option-item" onclick="selectOption(this)"><span class="option-prefix">A.</span> Add water → filter → use a magnet → evaporate the filtrate.</li>
+    <li class="option-item" data-correct="true" onclick="selectOption(this)"><span class="option-prefix">B.</span> Use a magnet → add water → filter → evaporate the filtrate.</li>
+    <li class="option-item" onclick="selectOption(this)"><span class="option-prefix">C.</span> Filter first → use a magnet → add water → boil everything.</li>
+    <li class="option-item" onclick="selectOption(this)"><span class="option-prefix">D.</span> Evaporate first → add water → use a magnet → filter.</li>
   </ul>
 
   <button class="btn" onclick="toggleAnswer('answer-3', this)">Show Answer</button>
@@ -337,19 +324,44 @@ footer{
   <div class="answer-box" id="answer-3">
     <div class="answer-title">Correct Answer: B</div>
     <div class="explanation">
-      The presence of ribosomes and circular DNA without a nuclear membrane indicates a prokaryotic cell, such as a bacterium, which can perform essential life processes independently.
+      First remove iron with a magnet. Then dissolve the salt in water, filter out the insoluble sand, and finally evaporate the water to recover the salt.
     </div>
   </div>
 </div>
 
 <!-- Slide 4 -->
 <div class="slide" id="slide-4">
+  <div class="slide-title">Physics — HOTS Question 4</div>
+
+  <div class="question-text">
+    Two students push the same box in opposite directions. Student A pushes with 70 N to the right and Student B pushes with 50 N to the left. If friction is 10 N to the left, what is the net force on the box?
+  </div>
+
+  <ul class="options-list">
+    <li class="option-item" data-correct="true" onclick="selectOption(this)"><span class="option-prefix">A.</span> 10 N to the right</li>
+    <li class="option-item" onclick="selectOption(this)"><span class="option-prefix">B.</span> 20 N to the right</li>
+    <li class="option-item" onclick="selectOption(this)"><span class="option-prefix">C.</span> 10 N to the left</li>
+    <li class="option-item" onclick="selectOption(this)"><span class="option-prefix">D.</span> 130 N to the right</li>
+  </ul>
+
+  <button class="btn" onclick="toggleAnswer('answer-4', this)">Show Answer</button>
+
+  <div class="answer-box" id="answer-4">
+    <div class="answer-title">Correct Answer: A</div>
+    <div class="explanation">
+      The forces to the left total 50 N + 10 N = 60 N. The rightward force is 70 N, so the net force is 70 − 60 = 10 N to the right.
+    </div>
+  </div>
+</div>
+
+<!-- Summary -->
+<div class="slide" id="slide-5">
   <div class="slide-title">Summary & Key Takeaways</div>
   <ul style="line-height:1.8; margin-left:20px; color:#444; font-size:1.05rem;">
-    <li><strong>Turgidity:</strong> Water enters plant cells by osmosis and the cell wall prevents bursting.</li>
-    <li><strong>Animal cells:</strong> Lack a cell wall and may contain many mitochondria if energy demand is high.</li>
-    <li><strong>Plant cells:</strong> Have a cell wall and a large central vacuole; chloroplasts may be absent in non-green parts.</li>
-    <li><strong>Prokaryotic cells:</strong> Lack a true nucleus and membrane-bound organelles but can perform essential life processes independently.</li>
+    <li><strong>Nature:</strong> Infiltration helps rainwater enter the soil and replenish groundwater.</li>
+    <li><strong>Biology:</strong> Mitochondria release usable energy from food during cellular respiration.</li>
+    <li><strong>Chemistry:</strong> Filtration can separate an insoluble solid such as sand from water.</li>
+    <li><strong>Physics:</strong> Average speed is calculated by dividing distance by time.</li>
   </ul>
 </div>
 
@@ -361,7 +373,7 @@ footer{
 
 <footer>
   <div class="footer-left">
-    <img src="https://kensrischool-download.web.app/assets/kynt.png" class="footer-logo" alt="KYNT Logo">
+<img src="kyntcore.png" alt="KYNT Core Logo" class="logo">
     <span>Build by Team Leader Karthik Prajith</span>
   </div>
   <div>©2026 KYNT Team All rights reserved.</div>
@@ -369,7 +381,7 @@ footer{
 
 <script>
 let currentSlide = 1;
-const totalSlides = 4;
+const totalSlides = 5;
 let isScrollMode = false;
 
 function updateSlideDisplay(){
